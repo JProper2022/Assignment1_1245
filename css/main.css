@@ -1,0 +1,72 @@
+/*Josh Proper 8374*/
+body{
+    width: auto;
+    max-width: auto;
+    margin: 10;
+    font: 15px helvetica;
+    padding: 5px;
+}
+header{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
+footer{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    clear:both;
+}
+h1{
+    color:blue;
+    font-variant: small-caps;
+}
+h2{
+    color:violet;
+    font-variant: small-caps;
+}
+footer p{
+    color:blueviolet;
+}
+main{
+    float:left;
+    width:66%;
+    padding:2px;
+    margin: 2px;
+    overflow: auto;
+}
+aside{
+    float:right;
+    
+    width:30%;
+    padding:2px;
+    margin: 2px;
+}
+ul > li{
+    font: 13px black;
+    list-style-type: none;
+    line-height: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{color: rgb(255, 0, 157)}
+figcaption{
+    font-style:bold;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 18px;
+}
+.mainimg{
+    border:5px solid black;
+    width: 300px;
+    height:300px;
+}
